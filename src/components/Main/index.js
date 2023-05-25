@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+
 import {
   Container,
   Segment,
@@ -22,6 +23,9 @@ import {
 import { shuffle } from '../../utils';
 
 import Offline from '../Offline';
+
+
+
 
 const Main = ({ startQuiz }) => {
   const [category, setCategory] = useState('0');
@@ -117,10 +121,12 @@ const Main = ({ startQuiz }) => {
       <Segment>
         <Item.Group divided>
           <Item>
+           
             <Item.Image src={mindImg} />
+           
             <Item.Content>
               <Item.Header>
-                <h1>The Ultimate Trivia Quiz</h1>
+                <h1>QUIZ by Radha Krishna Singh</h1>
               </Item.Header>
               {error && (
                 <Message error onDismiss={() => setError(null)}>

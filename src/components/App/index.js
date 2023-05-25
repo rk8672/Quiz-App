@@ -8,7 +8,7 @@ import Result from '../Result';
 
 import { shuffle } from '../../utils';
 
-function App() {
+const App = () => {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState(null);
   const [countdownTime, setCountdownTime] = useState(null);
@@ -83,6 +83,6 @@ function App() {
       )}
     </Layout>
   );
-}
+};
 
 export default App;

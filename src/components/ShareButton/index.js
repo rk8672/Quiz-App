@@ -7,7 +7,7 @@ const ShareButton = () => {
       .share({
         title: document.title,
         text: 'Check out this quiz app — it rocks!',
-        url: 'https://safdarjamal.github.io/quiz-app/'
+        url: 'https://github.com/rk8672'
       })
       .then(() => console.log('Successfully shared'))
       .catch(error => console.log(error.message));
